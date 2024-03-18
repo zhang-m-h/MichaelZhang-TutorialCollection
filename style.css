@@ -1,0 +1,93 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: sans-serif;
+}
+
+.stepTracker {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5em; 
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#buttonsContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+.buttons:hover{
+    background-color: hsl(184, 55%, 72%);
+}
+
+#stepContainer{
+    text-align: center;
+}
+
+#stepLabel {
+    display: inline-block;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    margin-right: 5px;
+}
+
+#stepInput {
+    width: 50px;
+    font-size: 1.25em;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#submitButt {
+    padding: 5px 10px;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#submitButt:hover {
+    background-color: hsl(184, 55%, 72%);
+}
+
+.infoSection {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.infoSection h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.infoSection p {
+    margin-bottom: 1px;
+}
+
+.infoSection strong {
+    font-weight: bold;
+}
